@@ -3,7 +3,7 @@ Accounts.removeOldGuests = (before) ->
   if (typeof before == 'undefined')
     before = new Date()
     before.setHours(before.getHours() - 1)
-  
+
   res = Meteor.users.remove(
     {
       createdAt: {$lte: before},
@@ -19,7 +19,7 @@ Meteor.methods
     guestname = "guest-#{count}"
     guest = {
       username: guestname
-      email: "#{guestname}@xgram.org"
+      email: "#{guestname}@fckapp.com"
       profile: {guest: true}
       password: Meteor.uuid()
     }
