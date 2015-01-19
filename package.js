@@ -1,8 +1,8 @@
 Package.describe({
-  name: 'dcsan:accounts-guest',
+  name: 'anbuselvan:accounts-guest',
   summary: "Automatically add visitor as anonymous guest with userId",
   version: "0.1.2",
-  git: "https://github.com/dcsan/meteor-accounts-guest.git",
+  git: "https://github.com/anbuselvan/meteor-accounts-guest.git",
   comment: "updated to 1.0"
 });
 

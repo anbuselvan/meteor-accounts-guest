@@ -19,7 +19,7 @@ Meteor.methods
     guestname = "guest-#{count}"
     guest = {
       username: guestname
-      email: "#{guestname}@fckapp.com"
+      email: "#{guestname}@anbuselvan.net"
       profile: {guest: true}
       password: Meteor.uuid()
     }
